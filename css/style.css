@@ -13,6 +13,7 @@ p {
 body {
   background:url("../assets/images/intersection.png");
   height:100vh;
+  margin-bottom: 60px;
 }
 header {
   background-color: #ffffff;
@@ -62,7 +63,9 @@ nav {
   font-weight: bold;
 }
 footer {
-  height: 50px;
+  bottom:0;
+  height: 60px;
+  width: 100%;
   padding: 10px;
   text-align: center;
   background-color: #666666;
@@ -115,7 +118,10 @@ label {
   padding-bottom: 10px ;
   border: 2px solid #cccccc;
 }
-
+html {
+  position: relative;
+  min-height: 100%;
+}
 
 
 
