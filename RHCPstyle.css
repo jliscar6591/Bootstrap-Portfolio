@@ -1,0 +1,28 @@
+#RHCP{
+	border:16px;
+	border-color: blue;
+	border-style: solid;
+}
+
+#Upcoming {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#Upcoming td, #Upcoming th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#Upcoming tr:nth-child(even){background-color: #f2f2f2;}
+
+#Upcoming tr:hover {background-color: #ddd;}
+
+#Upcoming th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
